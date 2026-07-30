@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Guntru Venkata Ramakrishna">Guntru Venkata Ramakrishna</h1>
+
+          <p class="title">AI/ML Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ramakrishnagunturu561@gmail.com" class="contact-link">ramakrishnagunturu561@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919701021438" class="contact-link">+91-9701021438</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/ramakrishnagunturu561-del" target="_blank" class="contact-link">ramakrishnagunturu561-del</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Andhra Pradesh, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/ramakrishnagunturu561-del" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a B.Tech Artificial Intelligence & Machine Learning student passionate about building intelligent systems that solve real-world problems. My expertise includes Machine Learning, Deep Learning, Generative AI, Agentic AI, Large Language Models (LLMs), Natural Language Processing, Computer Vision, and AI Automation.
+          </p>
+
+          <p>
+            I develop scalable AI-powered applications using Python, FastAPI, LangChain, LangGraph, REST APIs, and modern web technologies. I enjoy transforming complex ideas into production-ready AI solutions that deliver measurable impact.
+          </p>
+
+          <p>
+            As a national-level hackathon award winner, I continuously explore emerging AI technologies and strive to create innovative, reliable, and user-centric intelligent systems.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="hardware-chip-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI/ML Development</h4>
+                <p class="service-item-text">
+                  Designing and deploying machine learning and deep learning solutions for real-world applications.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="chatbubbles-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative AI</h4>
+                <p class="service-item-text">
+                  Building LLM-powered chatbots, RAG systems, AI assistants, and autonomous AI agents.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="server-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+                <p class="service-item-text">
+                  Developing scalable APIs using Python, FastAPI, databases, authentication, and cloud deployment.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="eye-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision</h4>
+                <p class="service-item-text">
+                  Creating AI systems for object detection, OCR, image classification, document intelligence, and video analytics.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="analytics-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+                <p class="service-item-text">
+                  Cleaning, analyzing, visualizing, and modeling data using Python, Pandas, NumPy, and Scikit-learn.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="flask-outline" style="font-size: 40px; color: var(--orange-yellow-crayola);"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Research</h4>
+                <p class="service-item-text">
+                  Exploring cutting-edge AI technologies, multimodal AI, autonomous agents, reinforcement learning, and production AI systems.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - skills
+        -->
+        <section class="professional-skills" style="margin-bottom: 40px;">
+          <h3 class="h3 service-title">Professional Skills</h3>
+          <div class="skills-grid">
+            
+            <div class="skill-category">
+              <h4 class="h4">Languages</h4>
+              <ul class="skill-tags">
+                <li>Python</li>
+                <li>Java</li>
+                <li>C</li>
+              </ul>
+            </div>
+
+            <div class="skill-category">
+              <h4 class="h4">AI/ML</h4>
+              <ul class="skill-tags">
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>LLMs</li>
+                <li>Generative AI</li>
+                <li>Agentic AI</li>
+                <li>RAG</li>
+                <li>NLP</li>
+                <li>Computer Vision</li>
+              </ul>
+            </div>
+
+            <div class="skill-category">
+              <h4 class="h4">Frameworks</h4>
+              <ul class="skill-tags">
+                <li>FastAPI</li>
+                <li>LangChain</li>
+                <li>LangGraph</li>
+                <li>TensorFlow</li>
+                <li>PyTorch</li>
+                <li>Scikit-learn</li>
+              </ul>
+            </div>
+
+            <div class="skill-category">
+              <h4 class="h4">Web</h4>
+              <ul class="skill-tags">
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>REST APIs</li>
+              </ul>
+            </div>
+
+            <div class="skill-category">
+              <h4 class="h4">Database</h4>
+              <ul class="skill-tags">
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>Firebase</li>
+                <li>Supabase</li>
+              </ul>
+            </div>
+
+            <div class="skill-category">
+              <h4 class="h4">Tools</h4>
+              <ul class="skill-tags">
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Docker</li>
+                <li>Postman</li>
+                <li>VS Code</li>
+                <li>Google Cloud</li>
+                <li>IBM Watsonx</li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+        <!--
+          - statistics
+        -->
+        <section class="statistics" style="margin-bottom: 20px;">
+          <h3 class="h3 service-title">By the Numbers</h3>
+          <ul class="stats-list">
+            
+            <li class="stats-item">
+              <h4 class="stats-num">15+</h4>
+              <p class="stats-text">Projects Completed</p>
+            </li>
+
+            <li class="stats-item">
+              <h4 class="stats-num">5+</h4>
+              <p class="stats-text">Hackathons</p>
+            </li>
+
+            <li class="stats-item">
+              <h4 class="stats-num">3+</h4>
+              <p class="stats-text">Awards</p>
+            </li>
+
+            <li class="stats-item">
+              <h4 class="stats-num">20+</h4>
+              <p class="stats-text">AI Models Built</p>
+            </li>
+
+            <li class="stats-item">
+              <h4 class="stats-num">30+</h4>
+              <p class="stats-text">GitHub Repositories</p>
+            </li>
+
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dr. RVR's NRI Deemed to be University, Agiripalli</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                B.Tech — Artificial Intelligence & Machine Learning | CGPA: 8.5
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Narayana Junior College, Eluru</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Intermediate — MPC | 81.5%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Chaitanya EM High School, Chekkapalli</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                10th Standard | 71.6%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Marketing Intern — Corizo</h4>
+
+              <span>Aug 2025 — Sep 2025</span>
+
+              <p class="timeline-text">
+                Supported digital marketing campaigns and market research initiatives over a 2-month internship, strengthening brand awareness.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ServiceNow Virtual Intern — SmartBridge</h4>
+
+              <span>July 2026</span>
+
+              <p class="timeline-text">
+                Completed hands-on training in ServiceNow Administration, Flows, ATF, Reports, Agentic AI, and CSA fundamentals, developing practical knowledge of enterprise workflow automation and ServiceNow platform capabilities.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python & Backend (FastAPI)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning & Deep Learning</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Generative AI, LLMs & Agentic AI</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React.js & Full-stack Web Dev</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item"><p class="timeline-text">Salesforce Certified Agentforce Specialist</p></li>
+            <li class="timeline-item"><p class="timeline-text">Google Cloud Skill Badge — Prompt Design in Vertex AI</p></li>
+            <li class="timeline-item"><p class="timeline-text">NPTEL — Cloud Computing</p></li>
+            <li class="timeline-item"><p class="timeline-text">Deloitte Cybersecurity Job Simulation — Forage</p></li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Hackathons & Achievements</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item"><p class="timeline-text">Hackathon Winner — 72-Hour Hackathon conducted by NASA</p></li>
+          
+            <li class="timeline-item"><p class="timeline-text">Hackathon Award Winner — National-Level Hackathon conducted by IIIT Sri City</p></li>
+            <li class="timeline-item"><p class="timeline-text">Hackathon Award Winner — National-Level Hackathon conducted by T-HUB Telangana</p></li>
+            <li class="timeline-item"><p class="timeline-text">Team Lead — Techzite Hackathon, IIIT (Dec 2025)</p></li>
+            <li class="timeline-item"><p class="timeline-text">Google Arcade Program — Awarded Google Arcade Swags</p></li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Positions of Responsibility</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item"><p class="timeline-text">Member, From Nuzvid We Lead (Aug 2025 – Present)</p></li>
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>AI/ML</button></li>
+            <li class="filter-item"><button data-filter-btn>Generative AI</button></li>
+            <li class="filter-item"><button data-filter-btn>Machine Learning</button></li>
+            <li class="filter-item"><button data-filter-btn>Full Stack</button></li>
+            <li class="filter-item"><button data-filter-btn>Automation</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>AI/ML</button></li>
+              <li class="select-item"><button data-select-item>Generative AI</button></li>
+              <li class="select-item"><button data-select-item>Machine Learning</button></li>
+              <li class="select-item"><button data-select-item>Full Stack</button></li>
+              <li class="select-item"><button data-select-item>Automation</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list premium-projects-grid">
+            
+            <!-- 1. Agentica -->
+            <li class="project-item active premium-project-card" data-filter-item data-category="generative ai">
+              <div class="project-thumbnail gradient-1">
+                <ion-icon name="hardware-chip-outline" style="font-size: 90px; color: rgba(255,255,255,0.25); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></ion-icon>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Agentica</h3>
+                <p class="project-desc">An autonomous AI platform coordinating multiple AI agents for intelligent task execution.</p>
+                <div class="project-tech">
+                  <span>Python</span><span>FastAPI</span><span>LangGraph</span><span>LLMs</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/ramakrishnagunturu561-del/agentica" target="_blank" class="github-btn">
+                    <ion-icon name="logo-github"></ion-icon> GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- 2. AgriMind AI -->
+            <li class="project-item active premium-project-card" data-filter-item data-category="ai/ml">
+              <div class="project-thumbnail gradient-2">
+                <ion-icon name="leaf-outline" style="font-size: 90px; color: rgba(255,255,255,0.25); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></ion-icon>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">AgriMind AI</h3>
+                <p class="project-desc">Smart agriculture platform providing crop recommendations, disease detection, and farming assistance.</p>
+                <div class="project-tech">
+                  <span>Python</span><span>FastAPI</span><span>ML</span><span>React</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/ramakrishnagunturu561-del/AgriMind-AI" target="_blank" class="github-btn">
+                    <ion-icon name="logo-github"></ion-icon> GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- 3. Career AI -->
+            <li class="project-item active premium-project-card" data-filter-item data-category="generative ai">
+              <div class="project-thumbnail gradient-3">
+                <ion-icon name="briefcase-outline" style="font-size: 90px; color: rgba(255,255,255,0.25); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></ion-icon>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Career AI</h3>
+                <p class="project-desc">AI-powered career guidance platform offering resume analysis and personalized recommendations.</p>
+                <div class="project-tech">
+                  <span>Python</span><span>NLP</span><span>Generative AI</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/ramakrishnagunturu561-del/career-Ai" target="_blank" class="github-btn">
+                    <ion-icon name="logo-github"></ion-icon> GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- 4. Doc Cyber Threat Analysis -->
+            <li class="project-item active premium-project-card" data-filter-item data-category="ai/ml">
+              <div class="project-thumbnail gradient-4">
+                <ion-icon name="shield-checkmark-outline" style="font-size: 90px; color: rgba(255,255,255,0.25); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></ion-icon>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Doc Cyber Threat Analysis</h3>
+                <p class="project-desc">Document intelligence platform for OCR, cybersecurity threat detection, and summarization.</p>
+                <div class="project-tech">
+                  <span>Python</span><span>FastAPI</span><span>OCR</span><span>LLM</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/ramakrishnagunturu561-del/Doc-Cyber-threat-analysis" target="_blank" class="github-btn">
+                    <ion-icon name="logo-github"></ion-icon> GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- 5. MovieFlex ML Model -->
+            <li class="project-item active premium-project-card" data-filter-item data-category="machine learning">
+              <div class="project-thumbnail gradient-5">
+                <ion-icon name="film-outline" style="font-size: 90px; color: rgba(255,255,255,0.25); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></ion-icon>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">MovieFlex ML Model</h3>
+                <p class="project-desc">Machine learning recommendation system that suggests personalized movies based on interests.</p>
+                <div class="project-tech">
+                  <span>Python</span><span>ML</span><span>Streamlit</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/ramakrishnagunturu561-del/movieFlex-ML-model" target="_blank" class="github-btn">
+                    <ion-icon name="logo-github"></ion-icon> GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- 6. Audio Styno -->
+            <li class="project-item active premium-project-card" data-filter-item data-category="automation">
+              <div class="project-thumbnail gradient-6">
+                <ion-icon name="mic-outline" style="font-size: 90px; color: rgba(255,255,255,0.25); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></ion-icon>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Audio Styno</h3>
+                <p class="project-desc">Voice AI application for speech recognition, transcription, and intelligent voice automation.</p>
+                <div class="project-tech">
+                  <span>Python</span><span>NLP</span><span>Speech Recognition</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/ramakrishnagunturu561-del/audio-styno" target="_blank" class="github-btn">
+                    <ion-icon name="logo-github"></ion-icon> GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- 7. Health Care -->
+            <li class="project-item active premium-project-card" data-filter-item data-category="machine learning">
+              <div class="project-thumbnail gradient-7">
+                <ion-icon name="medkit-outline" style="font-size: 90px; color: rgba(255,255,255,0.25); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></ion-icon>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Health Care</h3>
+                <p class="project-desc">AI-powered healthcare prediction system for disease prediction and health insights.</p>
+                <div class="project-tech">
+                  <span>Python</span><span>Machine Learning</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/ramakrishnagunturu561-del/health-care" target="_blank" class="github-btn">
+                    <ion-icon name="logo-github"></ion-icon> GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <!-- 8. Digital Complaint Box -->
+            <li class="project-item active premium-project-card" data-filter-item data-category="full stack">
+              <div class="project-thumbnail gradient-8">
+                <ion-icon name="cube-outline" style="font-size: 90px; color: rgba(255,255,255,0.25); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></ion-icon>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Digital Complaint Box</h3>
+                <p class="project-desc">Online grievance management system with admin dashboard and Firebase integration.</p>
+                <div class="project-tech">
+                  <span>HTML/CSS/JS</span><span>Firebase</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/ramakrishnagunturu561-del/Digital_Complaint_Box" target="_blank" class="github-btn">
+                    <ion-icon name="logo-github"></ion-icon> GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-header" style="text-align: center; margin-bottom: 40px; animation: fadeUp 0.6s ease forwards;">
+          <h3 class="h3" style="font-size: 28px; margin-bottom: 15px; background: linear-gradient(90deg, #3B82F6, #8B5CF6, #06B6D4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Let's Build Something Amazing Together</h3>
+          <p style="color: var(--light-gray-70); font-size: 16px; max-width: 700px; margin: 0 auto; line-height: 1.6;">
+            I'm available for AI Engineering, Machine Learning, Generative AI, Full-Stack Development, internships, freelance projects, hackathons, and collaborations.
+          </p>
+        </section>
+
+        <!-- Premium Contact Cards -->
+        <section class="contact-cards-grid">
+          
+          <div class="premium-contact-card">
+            <div class="premium-icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="card-info">
+              <h4>Email</h4>
+              <p>ramakrishnagunturu561@gmail.com</p>
+            </div>
+            <button class="copy-btn" onclick="navigator.clipboard.writeText('ramakrishnagunturu561@gmail.com')" title="Copy Email">
+              <ion-icon name="copy-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="premium-contact-card">
+            <div class="premium-icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+            <div class="card-info">
+              <h4>Phone</h4>
+              <p>+91 9701021438</p>
+            </div>
+          </div>
+
+          <div class="premium-contact-card">
+            <div class="premium-icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="card-info">
+              <h4>Location</h4>
+              <p>Andhra Pradesh, India</p>
+            </div>
+          </div>
+
+          <div class="premium-contact-card">
+            <div class="premium-icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <div class="card-info">
+              <h4>Availability</h4>
+              <p style="display: flex; align-items: center; gap: 8px;">
+                <span class="status-dot"></span> Open to Work
+              </p>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="contact-form-section">
+          <h3 class="h3 form-title" style="margin-bottom: 25px;">Send a Message</h3>
+
+          <form action="https://formsubmit.co/ramakrishnagunturu561@gmail.com" method="POST" class="premium-form" data-form>
+            
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input premium-input" placeholder="Full Name" required data-form-input>
+              <input type="email" name="email" class="form-input premium-input" placeholder="Email Address" required data-form-input>
+            </div>
+
+            <input type="text" name="subject" class="form-input premium-input" placeholder="Subject" required data-form-input>
+
+            <textarea name="message" class="form-input premium-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn premium-btn" type="submit" disabled data-form-btn style="margin-top: 15px;">
+              <ion-icon name="paper-plane-outline"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+
+        <section class="social-connect" style="margin-top: 60px;">
+          <h3 class="h3 form-title" style="text-align: center; margin-bottom: 30px;">Connect With Me</h3>
+          
+          <div class="social-cards-grid">
+            <a href="https://github.com/ramakrishnagunturu561-del" target="_blank" class="social-card">
+              <ion-icon name="logo-github"></ion-icon>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/guntru-venkata-rama-krishna-1a7000329/" target="_blank" class="social-card">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:ramakrishnagunturu561@gmail.com" class="social-card">
+              <ion-icon name="mail-unread-outline"></ion-icon>
+              <span>Email</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="statistics" style="margin-top: 60px; margin-bottom: 40px;">
+          <ul class="stats-list">
+            <li class="stats-item">
+              <h4 class="stats-num">15+</h4>
+              <p class="stats-text">Projects</p>
+            </li>
+            <li class="stats-item">
+              <h4 class="stats-num">5+</h4>
+              <p class="stats-text">Hackathons</p>
+            </li>
+            <li class="stats-item">
+              <h4 class="stats-num">3+</h4>
+              <p class="stats-text">Awards</p>
+            </li>
+            <li class="stats-item">
+              <h4 class="stats-num">20+</h4>
+              <p class="stats-text">AI Models</p>
+            </li>
+          </ul>
+        </section>
+
+        <footer style="text-align: center; margin-top: 40px; padding-top: 40px; border-top: 1px solid hsla(0, 0%, 100%, 0.1);">
+          <div style="font-size: 35px; color: #8B5CF6; margin-bottom: 15px; animation: floatAvatar 3s ease-in-out infinite;">
+            <ion-icon name="hardware-chip-outline"></ion-icon>
+          </div>
+          <p style="color: var(--light-gray); font-size: 16px;">Thank you for visiting my portfolio.</p>
+          <p style="color: #3B82F6; font-size: 16px; font-weight: 500; margin-top: 5px;">Let's build intelligent solutions together.</p>
+        </footer>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
